@@ -5,7 +5,7 @@ pipeline {
 	  stages {
             stage('checkout-stage') {
                 steps {
-                    git branch: 'master', credentialsId: 'ashoksm', url: 'https://github.com/AuthorizeNet/sample-code-java.git'
+                    git branch: 'master', credentialsId: 'ashoksm', url: 'https://github.com/ashok77sm/sample-code-java.git'
                 }
             }   
 	          stage('build-stage') {
