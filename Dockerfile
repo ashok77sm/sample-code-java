@@ -1,3 +1,3 @@
 FROM maven
-COPY target/*.jar /app/sample.jar
+COPY target/SampleCode.jar /app/sample.jar
 ENTRYPOINT ["java","-jar","/app/sample.jar"]
